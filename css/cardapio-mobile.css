@@ -28,21 +28,28 @@
     gap: 12px;
   }
 
-  /* CARDÁPIO — lista vira coluna */
+  /* CARDÁPIO — 1 coluna */
   #cardapio ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  #cardapio ul img {
-    width: 280px;
-    height: 170px;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 15px !important;
+    padding: 0 10px;
   }
 
   #cardapio li {
-    width: 300px;
+    width: 90vw !important;
+    max-width: 340px;
     font-size: 20px;
+  }
+
+  #cardapio ul img {
+    width: 100% !important;
+    height: 180px !important;
+  }
+
+  #cardapio button {
+    width: 140px;
+    font-size: 16px;
   }
 
   /* CARRINHO */
