@@ -57,6 +57,7 @@ transform:translateY(0) scale(1);
 
 .login-box h2{
 text-align:center;
+text-shadow:2px 2px 4px rgba(0,0,0,0.5);
 }
 
 

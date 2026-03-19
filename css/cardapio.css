@@ -350,3 +350,9 @@ opacity:1;
 transform:translate(-50%, 0);
 }
 }
+
+@media (max-width: 768px) {
+  nav ul li {
+    margin: 5px 8px;
+  }
+}

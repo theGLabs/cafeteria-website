@@ -1,11 +1,9 @@
-/* ── MOBILE ── */
 @media (max-width: 768px) {
 
   body {
-    padding-top: 80px;
+    padding-top: 0 !important;
   }
 
-  /* NAV */
   nav {
     width: 90%;
     padding: 10px 15px;
@@ -14,10 +12,12 @@
 
   nav ul li a {
     font-size: 15px;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.5);
   }
 
   nav ul li {
     margin: 10px 8px;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.5);
   }
 
   .logo {
@@ -29,7 +29,11 @@
     font-size: 18px;
   }
 
-  /* HOME */
+  #home {
+    padding-top: 80px !important;
+    justify-content: center !important;
+  }
+
   #home h1 {
     font-size: 24px;
   }
@@ -38,11 +42,6 @@
     font-size: 16px;
   }
 
-  #home {
-  padding-top: 120px;
-}
-
-  /* CARRINHO */
   #cart-panel {
     width: 100%;
     right: -100%;

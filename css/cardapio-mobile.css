@@ -6,11 +6,11 @@
   }
 
   /* NAV */
-  nav {
-    width: 90%;
-    padding: 10px 15px;
-    border-radius: 30px;
-  }
+nav {
+  width: 90% !important;
+  padding: 10px 15px !important;
+  border-radius: 30px !important;
+}
 
   nav ul li a {
     font-size: 15px;

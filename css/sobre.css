@@ -43,6 +43,7 @@ nav ul{
 list-style:none;
 display:flex;
 gap:30px;
+text-shadow:2px 2px 4px rgba(0,0,0,0.5);
 }
 
 nav a{
@@ -262,6 +263,7 @@ animation-delay:0.5s;
 .texto h2{
 font-size:36px;
 margin-bottom:20px;
+text-shadow:2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .texto p{
@@ -312,4 +314,11 @@ to{
 opacity:1;
 transform:translate(-50%, 0);
 }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    gap: 0px;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.5);
+  }
 }
